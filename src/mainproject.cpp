@@ -7,7 +7,7 @@ int EmployeeLoginAndViewingOrders() {
     string fileuser,inputuser;
     int filepass,inputpass;
     bool found=false;
-    ifstream file("employee.txt");
+    ifstream file("src/employee.txt");
     if(!file){
         cout<<"Error opening file";
         return 0;
