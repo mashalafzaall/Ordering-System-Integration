@@ -7,6 +7,7 @@ int main() {
   //Taking username from user
     cout<<"Enter your username:";
     cin>>customeruser;
+    //Taking password from user
     cout<<"Enter your password:";
     cin>>customerpass;
     ofstream file("customer.txt",ios::app);
