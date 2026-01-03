@@ -17,6 +17,7 @@ if(!file){
     cin>>inputuser;
     cout<<"Enter your password: ";
     cin>>inputpass;
+// Compare input credentials with file data
     while(file>>fileuser>>filepass){
     if (inputuser==fileuser && inputpass==filepass){
     found=true;
