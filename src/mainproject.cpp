@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
+//Employee login authenication with order viewing after successful login
 int EmployeeLoginAndViewingOrders() {
     string fileuser,inputuser;
     int filepass,inputpass;
