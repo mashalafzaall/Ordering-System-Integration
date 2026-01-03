@@ -55,7 +55,8 @@ int main()
     cout<<"Do you want to order another item(y/n): ";
   // Asking user if they want to order any more items
     cin>>choice;
-    } while(choice== 'y' || choice== 'Y' );
+    } while(choice== 'y' || choice== 'Y' ); // do-while Loop continues if user says yes
+  // for closing the file after writing
     out.close();
     cout<<"Your total amount to pay is:Rs "<<totalbill<<endl;
     cout<<"Thank you for ordering"<<endl;
