@@ -16,12 +16,14 @@ int main()
      // Open file to store order details
     ofstream out("orders.txt",ios::app);
     do{
+     // Display menu to the user
         cout<<"The menu is as follow: "<<endl;
     cout<<"1.Burger  Rs.500"<<endl;
     cout<<"2.Pizza  Rs.1500"<<endl;
     cout<<"3.Brownie  Rs.250"<<endl;
     cout<<"4.Wings  Rs.700"<<endl;
     cout<<"5.Icecream  Rs.300\nEnter the item number you want to order: ";
+     // Take item number and quantity from user
     cin>>itemnum;
     cout<<"Enter the quantity of item you ordered: ";
     cin>>quantity;
