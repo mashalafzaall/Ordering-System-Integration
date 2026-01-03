@@ -10,6 +10,6 @@ int main(){
     while(in>>cutomeruser>>customerpass>>itemnum>>quantity>>bill){
     cout<<" "<<cutomeruser<<" "<<customerpass<<" "<<itemnum<<" "<<quantity<<" "<<bill<<endl; // Read data from file until end of file
     }
-   in.close();
+   in.close();// Close the file after reading
     return 0;
 }
