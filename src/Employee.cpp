@@ -22,6 +22,7 @@ if(!file){
     if (inputuser==fileuser && inputpass==filepass){
     found=true;
         break; 
+        // stops the loop immediately
     }
 }return 0;
 }
