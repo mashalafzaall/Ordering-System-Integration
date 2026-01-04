@@ -6,6 +6,7 @@ int main(){
     string fileuser,inputuser;
     int filepass,inputpass;
     bool found=false;
+  // Open employee.txt file to read stored usernames and passwords
     ifstream file("employee.txt");
 if(!file){
         cout<<"Error opening file";
